@@ -8,3 +8,5 @@ lazy val root = (project in file(".")).
     )),
     name := "Hello"
   )
+
+kotlinLib("stdlib")
